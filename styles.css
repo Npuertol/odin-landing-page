@@ -1,0 +1,35 @@
+
+* {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    /* may change justify content around to match img better */
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}

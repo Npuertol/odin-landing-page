@@ -96,6 +96,7 @@ a {
     font-size: 36px;
     font-weight: 800;
     text-align: center;
+    margin: 36px 0px;
 }
 
 .info {
@@ -129,7 +130,7 @@ a {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 100px 275px;
+    padding: 100px 300px;
 }
 
 .quote {

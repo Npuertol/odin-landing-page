@@ -137,10 +137,50 @@ a {
     font-weight: 600;
 }
 
+.container-four {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 100px 10px;
+}
+
+.product-sign-up {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    gap: 150px;
+}
+
+.sign-up-text h3 {
+    color:#F9FAF8;
+    font-size: 1.5em;
+    margin-bottom: 4px;
+}
+
+.sign-up-text p {
+    color:#F9FAF8;
+    margin-top: 4px;
+}
+
+.sign-up-inverse {
+    align-self: center;
+    background-color: #3882f6;
+    font-weight: 800;
+    font-size: 1em;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 6px 24px;
+    margin-top: 8px;
+}
+
 .footer {
     background-color: #1f2937;
     color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 24px;
 }
